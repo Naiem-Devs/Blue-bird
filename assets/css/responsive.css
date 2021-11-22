@@ -1,0 +1,421 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .History-cont {
+        right: 35px;
+    }
+    
+    .History-txt {
+        padding: 50px;
+        max-width: 740px;
+    }
+    
+    .History-logo img {width: 115px;}
+    
+    .History-logo {
+        width: 425px;
+    }
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .menu-area ul#nav {
+        width: 670px;
+    }
+    
+    .brand-logo-wrp a img {width: 140px;}
+
+.brand-logo-wrp a:nth-child(2) img, .brand-logo-wrp a:nth-child(5) img {
+    width: 70px;
+}
+    
+    .Leadership_blk {
+        flex: 0 0 25%;
+        margin-bottom: 60px;
+    }
+    
+    .History-wrp img {
+        width: 100%;
+    }
+    .History-txt {
+        top: 10%;
+        padding: 35px 35px;
+        width: 57%;
+    }
+    
+    .History-txt p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    
+    .History-cont h4 {
+        font-size: 50px;
+    }
+    
+    .History-cont span {
+        font-size: 20px;
+    }
+    
+    .History-cont p {
+        font-size: 20px;
+    }
+    
+    .History-cont {
+        right: 50px;
+    }
+    .History-logo {
+        margin-top: 13px;
+        width: 415px;
+        margin-top: 30px;
+    }
+    
+    .History-logo img {
+        width: 100px;
+    }
+    .History-logo img {
+    }
+    
+    
+    
+    .Leadership_blk img {
+        width: 160px;
+        height: 160px;
+        margin-bottom: 30px;
+    }
+    
+    .Leadership_blk a {
+        font-size: 18px;
+    }
+    
+    .Leadership_blk span {
+        font-size: 16px;
+    }
+    
+    section.FAQ h2 {
+        padding: 30px;
+    }
+    
+    .accordion {
+        font-size: 20px;
+    }
+
+footer {
+    padding: 30px 0;
+}
+
+.accordion:after {
+    width: 80%;
+}
+    
+    .footer_left a {
+        font-size: 18px;
+        width: 340px;
+    }
+    
+    section.Leadership.mb_100 {
+        margin-bottom: 0;
+    }
+    .hero-text {
+        width: 80%;
+    }
+    
+    .hero-text p {
+        font-size: 16px;
+    }
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .History-wrp img {
+        width: 100%;
+    }
+    
+    .History-txt {
+        position: unset;
+    }
+    
+    .History-cont {
+        top: 260px;
+        max-width: 300px;
+    }
+    
+    .History-wrp img {
+        height: 508px;
+        object-fit: cover;
+    }
+    
+    .History-cont span {
+        font-size: 18px;
+    }
+    
+    .History-cont h4 {
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+    
+    .History-cont p {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    
+    .History-txt p {
+        font-size: 16px;
+    }
+    
+    .hero-text p {
+        font-size: 14px;
+    }
+    
+    .hero-text {
+        width: 90%;
+        padding: 30px 40px;
+        transform: translateY(-44px);
+    }
+    
+    .brand-logo-wrp a img {
+        width: 100px;
+    }
+    
+    .History-logo {
+        margin: auto;
+        margin-top: 30px;
+        max-width: 500px;
+    }
+    
+    .History-logo a img {
+        width: 140px;
+    }
+    
+    .Leadership_blk img {
+        width: 130px;
+        height: 130px;
+        margin-bottom: 25px;
+    }
+    
+    .Leadership_blk {
+        flex: 0 0 33%;
+        width: max-content;
+        margin-bottom: 70px;
+    }
+    
+    .Leadership_blk a {
+        font-size: 16px;
+    }
+    
+    .Leadership_blk span {
+        font-size: 15px;
+    }
+    
+    .mb_100 {
+        margin-bottom: 50px;
+    }
+    
+    .accordion {
+        font-size: 18px;
+    }
+    
+    .panel p {
+        font-size: 15px;
+    }
+    
+    .accordion:before {
+        border-width: 10px;
+    }
+    .footer_left a {
+        font-size: 16px;
+        width: 290px;
+        display: flex;
+        align-items: center;
+        height: 80px;
+    }
+    
+    .footer_left {
+    }
+    
+    footer {
+        padding: 30px;
+    }
+    
+    section.History {
+        margin-bottom: 100px;
+    }
+    .brand-logo-wrp a img {width: 140px;}
+
+    .brand-logo-wrp a:nth-child(2) img, .brand-logo-wrp a:nth-child(5) img {
+        width: 70px;
+    }
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .History-wrp img {
+        width: 100%;
+        height: 340px;
+        object-fit: none;
+    }
+    
+    .History-txt {
+        position: unset;
+        padding: 35px 10px;
+    }
+    
+    .History-cont {
+        top: 100px;
+        left: 50%;
+        width: 300px;
+        transform: translateX(-50%);
+    }
+    
+    .hero-text {
+        transform: unset;
+        padding: 0;
+    }
+    
+    .hero-text p {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    
+    .hero-cont img {
+        height: 235px;
+        object-fit: cover;
+    }
+    
+    .History-cont span {
+        font-size: 18px;
+    }
+    
+    .History-cont h4 {
+        font-size: 50px;
+    }
+    
+    .History-cont p {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    
+    .History-txt p {
+        font-size: 16px;
+    }
+    
+    .History-logo img {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+    
+    .Leadership_blk img {
+        width: 119px;
+        height: 120px;
+        margin-bottom: 20px;
+    }
+    
+    .Leadership_blk {
+        flex: 0 0 50%;
+        margin-bottom: 50px;
+    }
+    
+    .Leadership_blk a {
+        font-size: 15px;
+    }
+    
+    .Leadership_blk span {
+        font-size: 15px;
+    }
+    
+    section.History {
+        margin-bottom: 50px;
+    }
+    
+    h2.ld_ship {
+        font-size: 24px;
+    }
+    
+    .Leadership-wrp {
+        margin-top: 60px;
+    }
+    
+    section.FAQ h2 {
+        font-size: 22px;
+        padding: 30px;
+    }
+    .footer_left a {
+        width: 250px;
+        font-size: 14px;
+        text-align: center;
+        margin: auto;
+    }
+    
+    footer .row {
+        flex-direction: column-reverse;
+    }
+    
+    footer {
+        padding: 20px;
+    }
+    
+    .footer_right {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .scl_icon {
+        margin: auto;
+    }
+    
+    .brand-logo-wrp a img {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+    
+    .brand-logo-wrp a:nth-child(2) img,.brand-logo-wrp a:nth-child(5) img {
+        width: 55px;
+    }
+    
+    .brand-logo-wrp {
+        margin-top: 20px;
+    }
+    
+    .mb_100 {
+        margin-bottom: 50px;
+    }
+    
+    .History-logo {
+        justify-content: space-around;
+    }
+    
+    .accordion {
+        font-size: 16px;
+        padding-left: 50px;
+        padding-right: 10px;
+    }
+    
+    .accordion:before {
+        border-width: 10px;
+        left: 20px;
+    }
+    
+    .panel {
+        padding:  20px;
+    }
+    
+    .panel p {
+        font-size: 15px;
+    }
+    .header-area{
+    padding: 20px 0;
+}
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:460px}
+.History-txt {
+    padding: 30px 20px;
+}
+}
