@@ -330,6 +330,10 @@
         <script src="assets/js/popper.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>  
         <script>
+		 $('.siteBar-btn').click( function (){ 
+                    $('.mobile-menu').toggleClass('siteBar');   
+                });
+		
             var acc = document.getElementsByClassName("accordion");
             var i;
             
